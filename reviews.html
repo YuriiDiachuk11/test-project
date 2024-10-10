@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Slider</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" crossorigin src="/test-project/assets/vendor-Dt1Lz-pX.js"></script>
+  <script type="module" crossorigin src="/test-project/assets/main-D3OcwIMm.js"></script>
+  <link rel="stylesheet" crossorigin href="/test-project/assets/vendor-Be9b3THL.css">
+</head>
+<body>
+    <section>
+        <h2 class="reviews-title">REVIEWS</h2>
+ <div class="review-container">
+    <p class="review-text">
+        Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations
+    </p>
+    <div class="person-review">
+    <img class="review-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAApTSURBVHgBrVhZbFxnGT13mX33Hk8WJ46ztE2TNmkahbYKtBQFUVWVoKIPoAiJPkRCRahCIATJExJCVK2Ah/oBqTyAKFA1SEhl6a4uaZPUqbPQOK6XOB57Zjz7zL1zV85/xwkRaZwZN190dceTO/c///nOt/3ALbCjR4/K195vpUn4HEZA6vT09Ea7Ud1mWpYaDoWQXZyLxbu6pvvTw2eeeeaZoiRJLj6HrQrgk08+6bMsq/fC2ImfyHCfcB0zlYzFkEom3Eqt5iFKxBMLkJU/uNHu3wwPD89wMw5WYR27xHVdKZu59MXjb/7rrXIxe1jT6ymHS4eCQaiyJPkVGfVyGYV8diCsyj8IG+X3Lpx673tiU1iFdQTwxRdfVB5/9NGHLp4d/yMce1hWVBQJZiGXQ7FU5MtspLuT+Mr9+xHzKwgpQFBGv9GoPjs1/sEvsQpTOnn49nQ68dY7r49q9epWSVJgWTa9KMNoNgnEwq7hDXj4gS9g/757sX/vHgymktCqZeTzeSzm8/s2DW/6aGZu4ZNO1mxbg3St/MDeu4/Mzkz9zHZsSJKMZCwK2AaG+3vw4P692HfXLqzbOIRwIgV/KOy9XXIdjJ04iZ8/92tM56uvnZ68/CA6sLYZ1DOZ+MfnP/6Vrum9pmnDpUMTYT/uImsP7d+HkY0b0NPbg2gijmAkDsXvhxIIQlJ9GBjow7qeFN54+931azZvGJ2fz9XaXbdtDZ6fvrizXq3cxuiF7biwbAvpriT27dyB7kQMwYAPCt1tM2Jccbku2ZME9ZB5271nN775yMOKVak/jg6sbYCzc7OHHC5MbGTPRUhVkO7vJxhA9fkQCgUQCPjpVfFKfinzLvEv3l1xV/245+496O9JHkAH1hbAw4cPR81G/aBh2Fy69ZN4LIymaaJYrWGpVMGnU7M4PTaOj059hLnZWfB5WKYBo1HDxJnzOMvvJcuAa9s7Dh06FESb1hbA8fff/bptGgOG7XBRi0z5EItEYNouLi1mCW4aIZKW7mJwkN2Tx49jfmYKrmUiP38ZermAZJC/IZOqa1t+v99Gm6a285Bl1J5QFcnTlUzXiiDx0a0SNVdtNFAqFpHLF3HPXXdi65YtWB9NYHLiUwyNbAP3gMnJKZhqEMWFeQytXf/xb0dHTbRpN2Xw8KFDA9z0/QGfip5EFAGCUoUGyWIyEsYdWzZ7ufDUzCxeOTmOoq3Cx78LS3nUKyWEyLQmBxFKdkONRtDX25PqpKrclMGlwtx+CVYoHAqiVG0gHgnBoZZ8IhCosXU93dh28MswmbT7ulNIp+Oo1+qi7KG8lENveh0eOXjA06Jv9xb87i9/2z4YGxQA22Lxpgzqde0OPxdTZAUpphOyia5kHJreRLZQRGZuDv3xMPbcuR3bbx9BhIwZWh3TM5dQKVeYaB0E/T4kevsQCUUQC4SjxWIxhjZtRYCinaLwHlBZcxW6tYelK+BTEA6LALFR0hqYvJzBwqVFmOUaJMNiPvSjzMheyBfwzvsfIp8rQOdmFFYelzmUrU7EtqttF4gVARqG0a03Kr0q9afwldmlAvp7e6FyMZGAhVsLDQ2Tc/NYzCyiSkYdggiFo/ythnNnz+KT02OQqAbH0GETaF1rqoyrKtq0FTXYbJaDluVsjLJckRyUag0U6wZG1g5wIYM9nw8amZyrVpAmeF+Y1YRt15r+bnzniW+gp6cfXdyQLxqF06yjwtyYyecMNdyn41YALOVLm81mMyLHQjB1F36mlqVKA2+NnUcvdRcJB0SooMEEnq0zgGoa5MUF1HQDlydmEXcvsOXywY0Esf2+nR5A00Xh+ecH7dFRtGU3dLGYLyTTGHYdSxalzWTkhtnjDQ70s+uToBkGag2dwaLDYODkSiXUWVlqpPrcuQkojoxNQ5uweWQrhthQqKqMCVYbzdCyknS07TFgJQ3K1VplhxgpRBMgRB7wq14Uq7JoFsAkrSFXLCPDnDefy6PAz0Kbawb7YLCYXSxmkJPI7IZeWKT6BEvhUnZxAqKct2kruVi1zeZ2kc9c9n+iKxDJWtRePzUpviMWlKnLmqajRvcm2B/2s8NZO9iPdWzButakvbbLqJbw0rFjmJyehBpOnEIHthLAsGU0uwRAmUqzXYt3v9fJiHbKcGVcLpEddjEya/RkJoccU83F2Qx2bxvGrlwRW25rsCQGcHHiP/jHv1+F3jSgRAOncSsA6rqeNJtaL6XD2mvApgYd9lo2o1a0UFbT8vyUY9D4+FAsHPKC5QRr8Pj0DHreP4EdIyOoVIoIyzp0ph3VFzKSqfRJdGA31KBW0QYl200JEDbF7xCYaFZV6lEAlMQl/onZhB1BkWWwpDXR19OHe9n6f+1LB3DwwH3I5pc8D/AHoidcWrt16xJuBcBGo7DRMvWwCArmQszXXFzIN7FQc9B0Ffj8dC0rjCwWllTvahouO+8MXvvwDD48N4VMoY7ZfJke4G8ME4rP3zhy5EjbrZawz3SxSDEXx0/sdRxLqjAxX8g26D6HbJExlhRFYqsl6jMBWh67yzO5GJL4TK1p4vWTp/HmqTN8XsXpBR3rIibZUP7a6UnDjTQoNzVtT103MT5f9xgUgDy3ijLXQsIGwseUI6qMfhWkACiY9cqbUCkDSmfNdmNhNxDvehkd2o1cnGSKGZxYKKE1wbnewq0x0r2axLzBiA2sovi9S7qiTTEsidxJtmV2QSFVgi37X12/c99x3AqAS9nsV0uV2kCh3OCQ5HrBcBUQWkOT+CwSoYhqj10vofu8oHGl/w3cCv8v4Pdrqa70U6s5n7kO4NNPPx0xzPrQ5VxRdUT0eYy1OBPqubK4941g1WltwOL8oarsenhJaLlaMKhwVIhGA3/686tvn8Mq7DqAUb6Nw22aPZ3sSYgJukVWC+S1CvcYJUNiFhaAvJmFLpYJTHwW39uOhJNTlW/H4okPwrHES9Fo/KeheHxvu2eJn3n08a3HHxs99vd/fremaa1diGAQDaEitZhhFItpXJZawSKYMxnNClrau2IibwoWhXmJnuXS8QZ7IQelQn2+zte8VKmUfo92GRRWNYo/1E1zDP/H1tXPop8RjC3vsJXAyZpgk5p0lxkV4GzbbKUnuZUzVWpU8uq7E+cZz6OWY7+QSvX+CJ0weBW9LD/L21NiAdWLUskbNYUWVZ4UyGROgPG0eI2JquNFsADoHZU43gYcy/ZSj+PaYoBfTlXyc7Va5fs3wrDibEDWXiHIGX7c5UpyUvZyYQuMw25GVX3X7VQRRx1OK9o9GSzrUWQDEUC2K84mhDzkEjf340ajdnQlDDcdXvjyMV7HJFVNKZK0y2NRAORCogz6fP5WcAiGHC81cy5mfRZHdF5iXz6fcVoZRriZTfBzbGAfq9Wqb9xs/XanqxLBvKyqygtcMcUlk6qsJE0CFEBVgvRetgxSWna5kIIA2foDJdt2fqFIsccqlcWX2S21NZes+pQ/Gk0eYK0+YFv2TkVVhvyB0BBZTLjeCZhbJmslTnhjrNdvOrI0VsovvIFV2H8Bi8QCuogrQRAAAAAASUVORK5CYII=" alt="Nataliia Shevchenko">
+    <p class="person-review-text">Natalia Shevchenko</p>
+</div>
+ </div>
+ <div>
+ <button type="button" class="swiper-button-prev"></button>
+ <button type="button" class="swiper-button-next"></button>
+</div>
+</section>
+  
+
+</body>
+</html>
